@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: absolute;
+    
+    padding: 20px 100px;
+    padding-left: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a{
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#btn_doar_agora{
+    background-color: green;
+    color: aliceblue;
+    border-radius: 8px;
+}

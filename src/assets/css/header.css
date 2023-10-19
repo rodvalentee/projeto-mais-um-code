@@ -1,0 +1,39 @@
+body{
+    background-color: gray
+}
+header {
+    background-color: white;
+    position: relative;
+    padding-bottom: 7px;
+}
+header nav a:not(:last-child){
+    margin-right: 15px;
+}
+header .link-logo{
+    display: block;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-top: 13px;
+}
+
+.menu {
+    position: absolute;
+    top: 32px;
+    right: 6%;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+#btn_doar_agora {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
