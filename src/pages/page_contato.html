@@ -1,37 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mata Viva - Contato</title>
-    <link rel="stylesheet" href="/src/assets/css/mata_viva.css" />
-    <link rel="stylesheet" href="/src/assets/css/main.css" />
+    <link rel="stylesheet" href="/src/assets/css/mata_viva.css">
     <link rel="stylesheet" href="/src/assets/css/header.css">
+    <link rel="stylesheet" href="/src/assets/css/page_contato.css">
+    <link rel="stylesheet" href="/src/assets/css/footer.css">
+    
+    <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="#" class="link-logo">
-            <img src="/src/assets/img/logo_mata_viva.svg" alt="Mata Viva">
-        </a>
-        
-        <nav class="menu">
-            <a href="/index.html">INICIO</a>
-            <a href="#">SOBRE</a>
-            <a href="#">CAUSAS</a>
-            <a href="#">NOTÍCIAS</a>
-            <a href="#">CONTATO</a>
-            <a href="#" id="btn_doar_agora">DOE AGORA</a>
-        </nav>
-    </header>
-    <main>
-        <section class="logo_container">
-            <img src="/src/assets/img/foto_home.svg" alt="">
+           <img src="/src/assets/img/logo_mata_viva.svg" alt="Mata Viva">
+       </a>
+      
+       <nav >
+            <ul class="menu">
+                <li><a href="/index.html">INICIO</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CAUSAS</a></li>
+                <li><a href="#">NOTÍCIAS</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#" id="btn_doar_agora">DOE AGORA</a></li>
+            </ul>
+       </nav>
+   </header>
+   <main>
+        <div class="titulo">
+            <h1>Fale Conosco</h1>
+        </div>
+
+        <section class="contact-icons">
+            <div class="icon">
+                <img src="/src/assets/img/whatsapp-icon.svg" alt="WhatsApp">
+                <p>WhatsApp: (00) 00000-0000</p>
+            </div>
+            <div class="icon">
+                <img src="/src/assets/img/instagram-icon.svg" alt="Instagram">
+                <p>Instagram: @insta</p>
+            </div>
+            <div class="icon">
+                <img src="/src/assets/img/email-icon.svg" alt="Email">
+                <p>Email: contato@pagina.com</p>
+            </div>
         </section>
-    </main>
 
-    
-    <footer>
-
-    </footer>
+        <section class="contact-form">
+            <h2>Envie-nos uma mensagem</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+   </main>
+   <footer>
+        <div class="column">
+            <h3>Texto</h3>
+            <p>Texto</p>
+            <p>Texto</p>
+            <p>Texto</p>
+        </div>
+        <div class="column">
+            <h3>Texto</h3>
+            <p>Texto</p>
+            <p>Texto</p>
+            <p>Texto</p>
+        </div>
+        <div class="column">
+            <h3>Texto</h3>
+            <p>Texto</p>
+            <p>Texto</p>
+            <p>Texto</p>
+        </div>
+        <div class="column">
+            <h3>Texto</h3>
+            <p>Texto</p>
+            <p>Texto</p>
+            <p>Texto</p>
+        </div>
+   </footer>
 </body>
 </html>
