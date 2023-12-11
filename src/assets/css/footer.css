@@ -1,0 +1,15 @@
+footer {
+    background-color: #00aa00;
+    padding: 20px;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    width: 50%;
+    text-align: center;
+}

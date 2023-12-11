@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    margin-left: 0;
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+#btn_doar_agora {
+    background-color: #00aa00;
+    border-radius: 5px;
+    color: white;
+}
